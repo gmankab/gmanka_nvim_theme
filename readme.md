@@ -4,9 +4,9 @@ install with lazy:
 
 ```lua
 {
-  "gmankab/gmanka_nvim_theme",
+  'gmankab/gmanka_nvim_theme',
   priority = 1000,
-  dependencies = { "rktjmp/lush.nvim" },
+  dependencies = { 'rktjmp/lush.nvim' },
   config = function()
   end,
 }
