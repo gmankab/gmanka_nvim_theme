@@ -286,11 +286,6 @@ local theme = lush(function(injected_functions)
     TelescopePreviewSize             { },
     TelescopePreviewUser             { },
     TelescopePreviewGroup            { },
-    markdownCodeBlock                { fg = foreground, bg = background },
-    markdownCode                     { markdownCodeBlock },
-    markdownCodeDelimiter            { fg = grey, bg = background },
-    sym"@markup.raw.block.markdown"  { markdownCodeBlock },
-    sym"@markup.raw.markdown_inline" { markdownCodeBlock },
 }
 end)
 
