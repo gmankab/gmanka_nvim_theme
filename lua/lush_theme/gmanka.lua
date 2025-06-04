@@ -286,6 +286,8 @@ local theme = lush(function(injected_functions)
     TelescopePreviewSize             { },
     TelescopePreviewUser             { },
     TelescopePreviewGroup            { },
+    WhichKeyDesc                     { fg = blue },   -- make the descriptions bright-green
+    WhichKeyGroup                    { fg = blue },   -- make the descriptions bright-green
 }
 end)
 
